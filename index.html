@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🐱</title>
+    <style>
+        body {
+            /* Purple overlay combined with the cute repeating cat pattern background */
+            background-image: url('https://unsplash.com');
+            background-size: 200px;
+            background-repeat: repeat;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+        /* Soft purple overlay over the cat background pattern */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(243, 230, 255, 0.9);
+            z-index: 1;
+        }
+        .card {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            max-width: 400px;
+            border-top: 8px solid #b39ddb;
+            position: relative;
+            z-index: 2;
+        }
+        h1 {
+            color: #4a148c;
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+        p {
+            color: #6a1b9a;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .emoji {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <span class="emoji">🐾🎂🐾</span>
+        <h1>Happy Birthday!</h1>
+        <p>Hello Mingming ko, alam mo naman na gusto kita maging masaya at magkaroon ng peace of mind. I wish magkaroon ka na peace of mind at unahin mo ang sarili mo kahit kanino. Mag ingat po palagi mingming ko. I love you always naman kaya gusto kita maging masaya sa buhay. Happy Happy Birthday Mingming. 
+        <br>P.S.  Wish you all the best in life.</br></p>
+    </div>
+
+</body>
+</html>
